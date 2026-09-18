@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nouveautés · Babelio</title>
+<meta name="description" content="Les nouveautés de l'application Babelio, version par version.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Literata:opsz,wght@7..72,400;7..72,600&display=swap">
+<style>
+:root {
+  --page:#fdfdfc; --surface:#f5f6f8; --rule:#e4e6ea; --rule-strong:#cfd3da;
+  --ink:#172130; --ink-2:#4a5462; --muted:#6e7783; --fill:#ffb725;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --page:#101722; --surface:#17202d; --rule:#263041; --rule-strong:#364254;
+    --ink:#eef1f6; --ink-2:#bfc8d4; --muted:#8f99a7; --fill:#ffb725;
+  }
+}
+*{box-sizing:border-box}
+body{
+  margin:0;background:var(--page);color:var(--ink);
+  font-family:Lato,system-ui,-apple-system,sans-serif;
+  font-size:17px;line-height:1.62;-webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:720px;margin:0 auto;padding:56px 22px 90px}
+.masthead{display:flex;flex-direction:column;gap:6px;margin-bottom:8px}
+.masthead h1{
+  font-family:Literata,Georgia,serif;font-weight:600;
+  font-size:clamp(30px,5vw,40px);line-height:1.1;margin:0;
+}
+.masthead p{margin:0;color:var(--muted);max-width:52ch}
+.brand{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:12px;letter-spacing:.12em;text-transform:uppercase;
+  color:var(--muted);font-weight:700;margin-bottom:14px;
+}
+.brand i{width:14px;height:14px;border-radius:3px;background:var(--fill);display:inline-block}
+article{padding-top:44px;margin-top:44px;border-top:2px solid var(--rule-strong)}
+article:first-of-type{border-top:none;margin-top:26px;padding-top:0}
+article header{margin-bottom:22px}
+article h1{
+  font-family:Literata,Georgia,serif;font-weight:600;
+  font-size:25px;margin:0 0 3px;line-height:1.2;
+}
+.meta{margin:0;color:var(--muted);font-size:14px}
+article h2{
+  font-family:Literata,Georgia,serif;font-weight:600;font-size:15px;
+  letter-spacing:.04em;text-transform:uppercase;color:var(--muted);
+  margin:34px 0 4px;
+}
+article h3{
+  font-family:Literata,Georgia,serif;font-weight:600;
+  font-size:19px;margin:24px 0 8px;line-height:1.25;
+}
+article h2 + h3{margin-top:12px}
+p{margin:0 0 14px;color:var(--ink-2);max-width:62ch}
+strong{color:var(--ink)}
+ul{margin:0 0 14px;padding-left:1.15em;color:var(--ink-2);max-width:62ch}
+li{margin-bottom:9px}
+img{
+  display:block;width:100%;max-width:330px;height:auto;
+  border-radius:14px;border:1px solid var(--rule);
+  margin:4px 0 18px;background:var(--surface);
+}
+footer{
+  margin-top:56px;padding-top:20px;border-top:1px solid var(--rule);
+  color:var(--muted);font-size:14px;
+}
+footer a{color:var(--ink-2)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand"><i></i>Babelio</div>
+  <div class="masthead">
+    <h1>Nouveautés</h1>
+    <p>Ce qui change dans l'application, version par version.</p>
+  </div>
+<article id="v283">
+  <header>
+    <h1>Version 0.206.0</h1>
+    <p class="meta"><time datetime="2026-09-18">18 septembre 2026</time> · android et ios</p>
+  </header>
+  <h2>Nouveautés</h2>
+<h3>Quatre thèmes au choix</h3>
+<img src="assets/283/themes.png" alt="Les quatre modes d'affichage" loading="lazy">
+<p>Clair, sombre, Cozy et Papier Crème. Le mode se change dans</p>
+<p><strong>Réglages › Modes clair, sombre, cozy</strong>, et l'application entière suit —</p>
+<p>y compris les couvertures et les graphiques.</p>
+<h3>Votre journal réunit le calendrier et les statistiques</h3>
+<img src="assets/283/journal.png" alt="Le journal de lecture" loading="lazy">
+<p><strong>Profil › Mon journal</strong> rassemble ce qui vivait à deux endroits. Trois</p>
+<p>échelles : par semaine pour voir vos pages et vos minutes jour après jour,</p>
+<p>par mois pour retrouver les livres refermés, par année pour la vue</p>
+<p>d'ensemble.</p>
+<p>Sous le graphique de la semaine, chaque journée s'ouvre sur le détail de</p>
+<p>ses sessions.</p>
+<h3>Le tirage au sort, sur toutes vos étagères</h3>
+<p>Le dé ne fonctionnait que sur «&nbsp;À lire&nbsp;» et la wishlist. Il fonctionne</p>
+<p>maintenant sur n'importe quelle étagère, y compris celles que vous créez.</p>
+<h2>Corrections</h2>
+<ul>
+<li><strong>Les dates de lecture s'inscrivent de nouveau seules.</strong> Passer un livre   à «&nbsp;Lu&nbsp;» ou «&nbsp;En cours&nbsp;» pose la date correspondante, quel que soit   l'endroit d'où vous le faites : la fiche du livre, le scanner, le   chronomètre, une sélection multiple. Le réglage se trouve dans   <strong>Réglages › Date et statut de lecture automatique</strong>.</li>
+<li><strong>Une session mal saisie se supprime.</strong> La croix était présente mais   presque invisible ; elle se voit désormais dans l'historique du livre et   dans le journal.</li>
+<li><strong>La série de lecture s'ouvre au toucher</strong> sur toute la carte, même   lorsqu'aucune série n'est en cours.</li>
+<li>L'écran des statistiques d'une année s'affiche en une seconde et demie   au lieu de huit.</li>
+</ul>
+</article>
+  <footer>
+    Une question, un souci&nbsp;? Écrivez-nous depuis
+    <strong>Réglages&nbsp;› Contactez-nous</strong> dans l'application.
+  </footer>
+</div>
+</body>
+</html>

@@ -63,6 +63,15 @@ img{
   border-radius:14px;border:1px solid var(--rule);
   margin:4px 0 18px;background:var(--surface);
 }
+/* A landscape montage is several screens at once: it earns the full column,
+   and a little more than the text, which stays at a readable measure. */
+img.wide{
+  max-width:none;width:calc(100% + 44px);margin-left:-22px;
+  border-radius:12px;
+}
+@media (max-width:760px){
+  img.wide{width:100%;margin-left:0}
+}
 footer{
   margin-top:56px;padding-top:20px;border-top:1px solid var(--rule);
   color:var(--muted);font-size:14px;

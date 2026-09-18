@@ -6,6 +6,7 @@
  * Write a release once, in Markdown, and both follow.
  */
 import { readdir, readFile, writeFile, mkdir, cp } from "node:fs/promises";
+import { readFileSync } from "node:fs";
 import { existsSync } from "node:fs";
 import { join, dirname } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -33,38 +34,84 @@ const parse = (raw) => {
 const escape = (s) =>
   s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 
-/** Just enough Markdown for what a changelog actually uses. */
+/** The size of a PNG, from its header — enough to tell a phone screenshot
+ *  (portrait) from a side-by-side montage (landscape), which the page lays
+ *  out differently. No dependency for twenty-four bytes. */
+const pngSize = (file) => {
+  try {
+    const head = readFileSync(join(root, file.replace("assets/", "assets/")));
+    return { w: head.readUInt32BE(16), h: head.readUInt32BE(20) };
+  } catch {
+    return null;
+  }
+};
+
+/** Just enough Markdown for what a changelog actually uses.
+ *
+ *  Paragraphs run until a blank line — the first version broke every source
+ *  line into its own <p>, so a wrapped sentence arrived on the page as four
+ *  paragraphs with gaps between them. */
 const render = (md) => {
   const out = [];
+  let para = [];
   let inList = false;
+
+  const flushPara = () => {
+    if (para.length) {
+      out.push(`<p>${inline(para.join(" "))}</p>`);
+      para = [];
+    }
+  };
+  const flushList = () => {
+    if (inList) { out.push("</ul>"); inList = false; }
+  };
+
   for (const line of md.split("\n")) {
-    const img = line.match(/^!\[(.*?)\]\((.*?)\)$/);
+    const trimmed = line.trim();
+
+    if (!trimmed) { flushPara(); flushList(); continue; }
+
+    const img = trimmed.match(/^!\[(.*?)\]\((.*?)\)$/);
     if (img) {
-      if (inList) { out.push("</ul>"); inList = false; }
+      flushPara(); flushList();
+      const src = img[2].replace("../assets/", "assets/");
+      const size = pngSize(src);
+      // 1.5, not merely landscape: a cropped panel is a little wider than
+      // tall and still belongs in the text column. Only a real montage —
+      // several screens in a row — takes the full width.
+      const wide = size && size.w / size.h > 1.5;
       out.push(
-        `<img src="${img[2].replace("../assets/", "assets/")}" alt="${escape(img[1])}" loading="lazy">`,
+        `<img${wide ? ' class="wide"' : ""} src="${src}" alt="${escape(img[1])}" loading="lazy">`,
       );
       continue;
     }
-    const h = line.match(/^(#{2,3})\s+(.*)$/);
-    if (h) {
-      if (inList) { out.push("</ul>"); inList = false; }
-      out.push(`<h${h[1].length}>${inline(h[2])}</h${h[1].length}>`);
+
+    const heading = trimmed.match(/^(#{2,3})\s+(.*)$/);
+    if (heading) {
+      flushPara(); flushList();
+      out.push(`<h${heading[1].length}>${inline(heading[2])}</h${heading[1].length}>`);
       continue;
     }
-    if (line.startsWith("- ")) {
+
+    if (trimmed.startsWith("- ")) {
+      flushPara();
       if (!inList) { out.push("<ul>"); inList = true; }
-      out.push(`<li>${inline(line.slice(2))}</li>`);
+      out.push(`<li>${inline(trimmed.slice(2))}</li>`);
       continue;
     }
-    if (!line.trim()) {
-      if (inList) { out.push("</ul>"); inList = false; }
-      continue;
+
+    // A line under a list item continues it; anywhere else it continues the
+    // paragraph. Either way it is joined, never given a line of its own.
+    if (inList) {
+      out[out.length - 1] = out[out.length - 1].replace(
+        /<\/li>$/,
+        ` ${inline(trimmed)}</li>`,
+      );
+    } else {
+      para.push(trimmed);
     }
-    if (inList) out[out.length - 1] = out[out.length - 1].replace(/<\/li>$/, ` ${inline(line)}</li>`);
-    else out.push(`<p>${inline(line)}</p>`);
   }
-  if (inList) out.push("</ul>");
+  flushPara(); flushList();
   return out.join("\n");
 };
 

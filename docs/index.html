@@ -63,6 +63,15 @@ img{
   border-radius:14px;border:1px solid var(--rule);
   margin:4px 0 18px;background:var(--surface);
 }
+/* A landscape montage is several screens at once: it earns the full column,
+   and a little more than the text, which stays at a readable measure. */
+img.wide{
+  max-width:none;width:calc(100% + 44px);margin-left:-22px;
+  border-radius:12px;
+}
+@media (max-width:760px){
+  img.wide{width:100%;margin-left:0}
+}
 footer{
   margin-top:56px;padding-top:20px;border-top:1px solid var(--rule);
   color:var(--muted);font-size:14px;
@@ -84,27 +93,21 @@ footer a{color:var(--ink-2)}
   </header>
   <h2>Nouveautés</h2>
 <h3>Quatre thèmes au choix</h3>
-<img src="assets/283/themes.png" alt="Les quatre modes d'affichage" loading="lazy">
-<p>Clair, sombre, Cozy et Papier Crème. Le mode se change dans</p>
-<p><strong>Réglages › Modes clair, sombre, cozy</strong>, et l'application entière suit —</p>
-<p>y compris les couvertures et les graphiques.</p>
+<img class="wide" src="assets/283/themes-4.png" alt="La même page de livre dans les quatre modes" loading="lazy">
+<p>Clair, sombre, Cozy et Papier Crème. Le mode se change dans <strong>Réglages › Modes clair, sombre, cozy</strong>, et l'application entière suit — les couvertures, les graphiques et jusqu'aux polices de caractères.</p>
+<img src="assets/283/themes.png" alt="Le choix du mode dans les réglages" loading="lazy">
 <h3>Votre journal réunit le calendrier et les statistiques</h3>
 <img src="assets/283/journal.png" alt="Le journal de lecture" loading="lazy">
-<p><strong>Profil › Mon journal</strong> rassemble ce qui vivait à deux endroits. Trois</p>
-<p>échelles : par semaine pour voir vos pages et vos minutes jour après jour,</p>
-<p>par mois pour retrouver les livres refermés, par année pour la vue</p>
-<p>d'ensemble.</p>
-<p>Sous le graphique de la semaine, chaque journée s'ouvre sur le détail de</p>
-<p>ses sessions.</p>
+<p><strong>Profil › Mon journal</strong> rassemble ce qui vivait à deux endroits. Trois échelles : par semaine pour voir vos pages et vos minutes jour après jour, par mois pour retrouver les livres refermés, par année pour la vue d'ensemble.</p>
+<p>Sous le graphique de la semaine, chaque journée s'ouvre sur le détail de ses sessions.</p>
 <h3>Le tirage au sort, sur toutes vos étagères</h3>
-<p>Le dé ne fonctionnait que sur «&nbsp;À lire&nbsp;» et la wishlist. Il fonctionne</p>
-<p>maintenant sur n'importe quelle étagère, y compris celles que vous créez.</p>
+<p>Le dé ne fonctionnait que sur «&nbsp;À lire&nbsp;» et la wishlist. Il fonctionne maintenant sur n'importe quelle étagère, y compris celles que vous créez.</p>
 <h2>Corrections</h2>
 <ul>
-<li><strong>Les dates de lecture s'inscrivent de nouveau seules.</strong> Passer un livre   à «&nbsp;Lu&nbsp;» ou «&nbsp;En cours&nbsp;» pose la date correspondante, quel que soit   l'endroit d'où vous le faites : la fiche du livre, le scanner, le   chronomètre, une sélection multiple. Le réglage se trouve dans   <strong>Réglages › Date et statut de lecture automatique</strong>.</li>
-<li><strong>Une session mal saisie se supprime.</strong> La croix était présente mais   presque invisible ; elle se voit désormais dans l'historique du livre et   dans le journal.</li>
-<li><strong>La série de lecture s'ouvre au toucher</strong> sur toute la carte, même   lorsqu'aucune série n'est en cours.</li>
-<li>L'écran des statistiques d'une année s'affiche en une seconde et demie   au lieu de huit.</li>
+<li><strong>Les dates de lecture s'inscrivent de nouveau seules.</strong> Passer un livre à «&nbsp;Lu&nbsp;» ou «&nbsp;En cours&nbsp;» pose la date correspondante, quel que soit l'endroit d'où vous le faites : la fiche du livre, le scanner, le chronomètre, une sélection multiple. Le réglage se trouve dans <strong>Réglages › Date et statut de lecture automatique</strong>.</li>
+<li><strong>Une session mal saisie se supprime.</strong> La croix était présente mais presque invisible ; elle se voit désormais dans l'historique du livre et dans le journal.</li>
+<li><strong>La série de lecture s'ouvre au toucher</strong> sur toute la carte, même lorsqu'aucune série n'est en cours.</li>
+<li>L'écran des statistiques d'une année s'affiche en une seconde et demie au lieu de huit.</li>
 </ul>
 </article>
   <footer>

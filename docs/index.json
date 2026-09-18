@@ -21,11 +21,11 @@
             {
               "title": "Votre journal réunit le calendrier et les statistiques",
               "text": "Profil › Mon journal rassemble ce qui vivait à deux endroits. Trois échelles : par semaine pour voir vos pages et vos minutes jour après jour, par mois pour retrouver les livres refermés, par année pour la vue d'ensemble. Sous le graphique de la semaine, chaque journée s'ouvre sur le détail de ses sessions.",
-              "image": "assets/0.206.0/journal.png"
+              "image": "assets/0.206.0/journal-semaine.png"
             },
             {
               "title": "Le tirage au sort, sur toutes vos étagères",
-              "text": "Le dé ne fonctionnait que sur « À lire » et la wishlist. Il fonctionne maintenant sur n'importe quelle étagère, y compris celles que vous créez.",
+              "text": "Le dé ne fonctionnait que sur « À lire » et la wishlist. Il fonctionne maintenant sur n'importe quelle étagère, y compris celles que vous créez. > Les captures illustrant les versions de mai à juillet ont été prises dans > l'application telle qu'elle est aujourd'hui : l'écran a pu évoluer depuis la > version où la fonctionnalité est apparue.",
               "image": null
             }
           ]
@@ -353,7 +353,7 @@
             {
               "title": "Vos étagères, réunies",
               "text": "Un tiroir « Mes étagères » rassemble les vôtres, et la création d'une nouvelle étagère tient en un écran. « Mes livres » propose un affichage compact.",
-              "image": null
+              "image": "assets/0.204.1/etageres.png"
             },
             {
               "title": "Le calendrier des sorties",
@@ -368,7 +368,7 @@
             {
               "title": "Votre Top 6 sur le profil",
               "text": "Six livres mis en avant en haut de votre profil.",
-              "image": null
+              "image": "assets/0.204.1/top6.png"
             }
           ]
         }
@@ -389,12 +389,12 @@
             {
               "title": "La zone « Ma lecture » sur chaque fiche livre",
               "text": "Où vous en êtes, ce que vous avez lu, et l'historique de vos avancées sur ce livre.",
-              "image": null
+              "image": "assets/0.204.0/historique.png"
             },
             {
               "title": "Votre série de lecture",
               "text": "Les jours où vous lisez s'enchaînent et se comptent, depuis l'accueil.",
-              "image": null
+              "image": "assets/0.204.0/serie-lecture.png"
             },
             {
               "title": "Les statistiques refondues",
@@ -477,7 +477,7 @@
             {
               "title": "Tirez votre prochaine lecture au sort",
               "text": "Un dé sur votre pile à lire et votre wishlist choisit pour vous, quand vous n'arrivez pas à vous décider.",
-              "image": null
+              "image": "assets/0.201.0/tirage-au-sort.png"
             },
             {
               "title": "Un statut par défaut pour les livres ajoutés",

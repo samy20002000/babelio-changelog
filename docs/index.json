@@ -16,12 +16,12 @@
             {
               "title": "Quatre thèmes au choix",
               "text": "Clair, sombre, Cozy et Papier Crème. Le mode se change dans Réglages › Modes clair, sombre, cozy, et l'application entière suit — les couvertures, les graphiques et jusqu'aux polices de caractères.",
-              "image": "assets/283/themes.png"
+              "image": "assets/0.206.0/themes.png"
             },
             {
               "title": "Votre journal réunit le calendrier et les statistiques",
               "text": "Profil › Mon journal rassemble ce qui vivait à deux endroits. Trois échelles : par semaine pour voir vos pages et vos minutes jour après jour, par mois pour retrouver les livres refermés, par année pour la vue d'ensemble. Sous le graphique de la semaine, chaque journée s'ouvre sur le détail de ses sessions.",
-              "image": "assets/283/journal.png"
+              "image": "assets/0.206.0/journal.png"
             },
             {
               "title": "Le tirage au sort, sur toutes vos étagères",
@@ -51,6 +51,452 @@
             {
               "title": null,
               "text": "L'écran des statistiques d'une année s'affiche en une seconde et demie   au lieu de huit.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.206.0",
+      "build": 269,
+      "date": "2026-09-03",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "sections": [
+        {
+          "section": "Corrections",
+          "items": [
+            {
+              "title": null,
+              "text": "Le temps de lecture s'affiche sous la jauge de la fiche livre, y compris   sur un livre déjà terminé.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "La croix supprime une date de lecture, et le retour Android ne l'efface   plus tout seul.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Le clavier ne masque plus les champs dans « Noter mon avancée » — ni dans   les défis, le signalement d'un problème ou la création d'une liste.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Les livres en envie de lecture apparaissent dans vos étagères personnelles.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Terminer un livre fait compter la journée dans votre journal.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.206.0",
+      "build": 253,
+      "date": "2026-08-24",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "sections": [
+        {
+          "section": "Corrections",
+          "items": [
+            {
+              "title": null,
+              "text": "Les photos jointes aux commentaires partent, quelle que soit leur taille.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Écran « à partir de quel âge » : plus besoin de bouger la liste entre deux   réponses.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Un nombre de pages manquant se complète directement, sans passer par la   modération.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Signaler une erreur transmet l'édition exacte à corriger.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.206.0",
+      "build": 246,
+      "date": "2026-08-18",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Chronométrez vos sessions de lecture",
+              "text": "Lancez le chronomètre depuis le livre que vous avez en cours. La durée se pré-remplit ensuite dans votre avancée, et vos lectures de la semaine apparaissent en graphiques.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "section": "Corrections",
+          "items": [
+            {
+              "title": null,
+              "text": "Les listes ont des fils de discussion, comme les critiques.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Signaler une erreur pointe vers la bonne édition.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Votre top 6 se choisit même sur une année sans lecture.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Écran « à partir de quel âge » : la saisie répond.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.206.0",
+      "build": 237,
+      "date": "2026-08-10",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Les commentaires deviennent des fils de discussion",
+              "text": "Répondez à un commentaire — et aux réponses. Aimez-en un, joignez-y des photos. Sur les critiques comme sur les citations.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "section": "Corrections",
+          "items": [
+            {
+              "title": null,
+              "text": "Un livre passé en « lu » ne quitte plus vos livres possédés.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Le nombre de pages que vous corrigez est enregistré.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Le clavier ne masque plus la saisie d'un commentaire.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.206.0",
+      "build": 225,
+      "date": "2026-07-28",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Partagez votre profil en image",
+              "text": "Un bouton à côté des réglages fabrique une image de votre profil, prête à partager.",
+              "image": null
+            },
+            {
+              "title": "Un calendrier de lecture mensuel, partageable lui aussi",
+              "text": "",
+              "image": null
+            },
+            {
+              "title": "Des widgets revus, sur iOS comme sur Android",
+              "text": "",
+              "image": null
+            }
+          ]
+        },
+        {
+          "section": "Corrections",
+          "items": []
+        }
+      ]
+    },
+    {
+      "version": "0.205.1",
+      "date": "2026-07-07",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "build": 0,
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Partagez n'importe quelle étagère",
+              "text": "En image ou par un lien web, comme vous partagez déjà vos listes. Les listes, elles, acceptent maintenant qu'on y ajoute les livres d'une étagère entière.",
+              "image": null
+            },
+            {
+              "title": "La recherche se range par rubriques",
+              "text": "Les résultats sont groupés par type, et votre requête se corrige sur place sans avoir à tout retaper.",
+              "image": null
+            },
+            {
+              "title": "Après avoir publié une critique",
+              "text": "L'application vous propose de la partager, avec une image aux couleurs de Babelio.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.204.2",
+      "date": "2026-06-28",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "build": 0,
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Agir sur plusieurs livres à la fois",
+              "text": "La sélection multiple se trouve depuis l'en-tête de « Mes livres », et permet de ranger, déplacer ou classer plusieurs livres d'un coup.",
+              "image": null
+            },
+            {
+              "title": "Signaler une erreur sur une fiche",
+              "text": "Le signalement crée directement un ticket auprès de notre équipe, avec l'édition concernée.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "section": "Corrections",
+          "items": [
+            {
+              "title": null,
+              "text": "Vos étagères gardent la même couleur d'un écran à l'autre.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Le scanner confirme l'ajout d'un livre par une vibration.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Retoucher l'onglet « Mes livres » remonte la liste en haut.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.204.1",
+      "date": "2026-06-18",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "build": 0,
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Des premiers pas guidés",
+              "text": "Un parcours en neuf étapes accueille les nouveaux lecteurs et les aide à remplir leur bibliothèque.",
+              "image": null
+            },
+            {
+              "title": "Vos étagères, réunies",
+              "text": "Un tiroir « Mes étagères » rassemble les vôtres, et la création d'une nouvelle étagère tient en un écran. « Mes livres » propose un affichage compact.",
+              "image": null
+            },
+            {
+              "title": "Le calendrier des sorties",
+              "text": "L'ancienne section « À paraître » devient un calendrier que l'on parcourt mois par mois.",
+              "image": null
+            },
+            {
+              "title": "Avertissements de contenu",
+              "text": "Signalez et consultez les avertissements sur une œuvre, avec une nouvelle catégorie et la possibilité de commenter.",
+              "image": null
+            },
+            {
+              "title": "Votre Top 6 sur le profil",
+              "text": "Six livres mis en avant en haut de votre profil.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.204.0",
+      "date": "2026-06-04",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "build": 0,
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "La zone « Ma lecture » sur chaque fiche livre",
+              "text": "Où vous en êtes, ce que vous avez lu, et l'historique de vos avancées sur ce livre.",
+              "image": null
+            },
+            {
+              "title": "Votre série de lecture",
+              "text": "Les jours où vous lisez s'enchaînent et se comptent, depuis l'accueil.",
+              "image": null
+            },
+            {
+              "title": "Les statistiques refondues",
+              "text": "Votre année en un coup d'œil, avec un histogramme par mois.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.203.0",
+      "date": "2026-05-30",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "build": 0,
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Deux comptes Babelio côte à côte",
+              "text": "Passez de l'un à l'autre d'un seul geste, sans vous déconnecter.",
+              "image": null
+            },
+            {
+              "title": "L'accueil revu",
+              "text": "Les cartes « Mes lectures » et la zone de découverte ont été redessinées.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.202.0",
+      "date": "2026-05-27",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "build": 0,
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Soyez prévenu des nouveautés",
+              "text": "Abonnez-vous aux parutions d'un auteur ou d'une série depuis sa page.",
+              "image": null
+            },
+            {
+              "title": "Vos réglages de notifications et de confidentialité",
+              "text": "Deux écrans dédiés : ce que vous recevez, et qui peut interagir avec vous. Vous pouvez aussi bloquer un membre depuis son profil.",
+              "image": null
+            },
+            {
+              "title": "Vos livres en commun",
+              "text": "Sur le profil d'un autre lecteur, les livres que vous avez lus tous les deux.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.201.0",
+      "date": "2026-05-20",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "build": 0,
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Tirez votre prochaine lecture au sort",
+              "text": "Un dé sur votre pile à lire et votre wishlist choisit pour vous, quand vous n'arrivez pas à vous décider.",
+              "image": null
+            },
+            {
+              "title": "Un statut par défaut pour les livres ajoutés",
+              "text": "Choisissez dans les réglages ce que devient un livre quand vous l'ajoutez depuis sa page.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "section": "Corrections",
+          "items": [
+            {
+              "title": null,
+              "text": "L'application ne vous déconnecte plus quand le réseau se coupe.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Le champ de commentaire s'agrandit à mesure que vous écrivez.",
               "image": null
             }
           ]

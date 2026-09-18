@@ -5,8 +5,10 @@ production.
 
 ## Ajouter une version
 
-1. Créez `releases/<build>.md` — le numéro est le `versionCode` Android.
-2. Déposez les captures dans `assets/<build>/`.
+1. Créez `releases/<date>-<version>.md`. Le nom est libre : seules les
+   métadonnées comptent, et les versions se classent par date.
+2. Déposez les captures dans `assets/<version>/`. Une image plus large que
+   haute — un montage de plusieurs écrans — prend toute la colonne.
 3. Poussez sur `main` : le site se régénère tout seul.
 
 Le format ne varie pas d'une version à l'autre, c'est ce qui permet d'en

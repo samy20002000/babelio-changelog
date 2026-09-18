@@ -154,10 +154,12 @@ const main = async () => {
   const releases = [];
   for (const file of files) {
     const { meta, body } = parse(await readFile(join(RELEASES, file), "utf8"));
-    releases.push({ ...meta, build: Number(meta.build), body });
+    releases.push({ ...meta, build: Number(meta.build) || 0, body });
   }
-  // Newest first — a reader opens this to see what just changed.
-  releases.sort((a, b) => b.build - a.build);
+  // Newest first, by DATE — a reader opens this to see what just changed, and
+  // the build number is not always known: fastlane bumps it locally, so the
+  // releases of June carry a version name and no code.
+  releases.sort((a, b) => (a.date < b.date ? 1 : a.date > b.date ? -1 : b.build - a.build));
 
   await mkdir(DOCS, { recursive: true });
   if (existsSync(join(root, "assets"))) {
@@ -186,10 +188,13 @@ const main = async () => {
 
   const articles = releases
     .map(
-      (r) => `<article id="v${r.build}">
+      // The date leads, not the version: several updates ship under the same
+      // version name, and "version 0.206.0" five times over tells a reader
+      // nothing about which one they are reading.
+      (r) => `<article id="${r.date}">
   <header>
-    <h1>Version ${escape(r.version)}</h1>
-    <p class="meta"><time datetime="${r.date}">${dateFr(r.date)}</time> · ${r.platforms.join(" et ")}</p>
+    <h1><time datetime="${r.date}">${dateFr(r.date)}</time></h1>
+    <p class="meta">Version ${escape(r.version)} · ${r.platforms.join(" et ")}</p>
   </header>
   ${render(r.body)}
 </article>`,

@@ -72,6 +72,18 @@ const render = (md) => {
     if (!trimmed) { flushPara(); flushList(); continue; }
 
     const img = trimmed.match(/^!\[(.*?)\]\((.*?)\)$/);
+    if (img && /\.mp4$/i.test(img[2])) {
+      flushPara(); flushList();
+      // A short clip plays on its own, silent and looping, like an animated
+      // capture. Its poster is the PNG of the same name, which is also what
+      // the app shows: the in-app screen only knows still images.
+      const src = img[2].replace("../assets/", "assets/");
+      const poster = src.replace(/\.mp4$/i, ".png");
+      out.push(
+        `<video src="${src}" poster="${poster}" autoplay muted loop playsinline aria-label="${escape(img[1])}"></video>`,
+      );
+      continue;
+    }
     if (img) {
       flushPara(); flushList();
       const src = img[2].replace("../assets/", "assets/");
@@ -133,7 +145,13 @@ const toBlocks = (md) => {
     if (h3) { current.items.push({ title: h3[1], text: "", image: null }); continue; }
     if (img) {
       const last = current.items[current.items.length - 1];
-      if (last) last.image = img[1].replace("../assets/", "assets/");
+      const src = img[1].replace("../assets/", "assets/");
+      // The app shows still images only: a clip hands it its poster, and the
+      // clip itself in its own field for a screen that learns to play it.
+      if (last && /\.mp4$/i.test(src)) {
+        last.image = src.replace(/\.mp4$/i, ".png");
+        last.video = src;
+      } else if (last) last.image = src;
       continue;
     }
     if (line.startsWith("- ")) {

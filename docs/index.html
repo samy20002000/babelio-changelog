@@ -58,7 +58,7 @@ p{margin:0 0 14px;color:var(--ink-2);max-width:62ch}
 strong{color:var(--ink)}
 ul{margin:0 0 14px;padding-left:1.15em;color:var(--ink-2);max-width:62ch}
 li{margin-bottom:9px}
-img{
+img,video{
   display:block;width:100%;max-width:330px;height:auto;
   border-radius:14px;border:1px solid var(--rule);
   margin:4px 0 18px;background:var(--surface);
@@ -86,6 +86,31 @@ footer a{color:var(--ink-2)}
     <h1>Nouveautés</h1>
     <p>Ce qui change dans l'application, version par version.</p>
   </div>
+<article id="2026-11-04">
+  <header>
+    <h1><time datetime="2026-11-04">4 novembre 2026</time></h1>
+    <p class="meta">Version 0.206.0 · android et ios</p>
+  </header>
+  <h2>Nouveautés</h2>
+<h3>Le tirage au sort fait tourner vos livres</h3>
+<video src="assets/293/tirage.mp4" poster="assets/293/tirage.png" autoplay muted loop playsinline aria-label="La roue de couvertures tourne, ralentit et s'arrête sur le livre tiré"></video>
+<p>Vous hésitez entre plusieurs livres de votre pile ? Le tirage au sort fait maintenant tourner vos couvertures sur une roue en 3D, en plein écran : elle prend de la vitesse, ralentit longuement, puis s'arrête sur le livre choisi, seul au centre. Les couvertures sont chargées avant le départ, la roue ne tourne plus jamais à vide.</p>
+<h3>Votre journal, séance par séance</h3>
+<img src="assets/293/journal.png" alt="Le journal de la semaine : chaque jour liste ses séances, avec les pages lues et la page atteinte" loading="lazy">
+<p>La liste «&nbsp;Jour par jour&nbsp;» de votre journal montre maintenant toutes les séances de chaque jour, du plus récent au plus ancien : le livre, les pages lues et l'endroit où vous en étiez, sans rien avoir à déplier. Les jours sans lecture n'y figurent plus.</p>
+<h3>Le bilan du mois se feuillette d'un geste</h3>
+<img src="assets/293/bilan.png" alt="La couverture du bilan, avec les repères des pages en haut de l'écran" loading="lazy">
+<p>Des repères en haut de l'écran indiquent combien de pages compte votre bilan et où vous en êtes. À l'ouverture, la couverture s'écarte un instant pour montrer la suite, et un simple toucher fait passer à la page suivante.</p>
+<h3>Des dates de lecture pour tous vos livres</h3>
+<p>Vous pouvez saisir une date de début et de fin de lecture pour n'importe quel livre, même s'il est encore «&nbsp;À lire&nbsp;» ou dans vos envies.</p>
+<h2>Corrections</h2>
+<ul>
+<li><strong>Vos avancées en pourcentage comptent dans votre journal.</strong> Une avancée notée en %, ou un livre terminé avec «&nbsp;J'ai fini ce livre&nbsp;», n'ajoutait aucune page à votre journal, alors que l'historique du livre les comptait. Les deux affichent maintenant le même nombre de pages.</li>
+<li><strong>«&nbsp;J'ai fini ce livre&nbsp;» demande à quelle page la séance a commencé</strong>, comme le reste de la fenêtre qui raisonne en pages atteintes. Laissez le champ vide si vous ne savez plus.</li>
+<li><strong>Terminer un livre n'ajoute plus de ligne «&nbsp;+0 page&nbsp;»</strong> à son historique, depuis la fenêtre de modification comme depuis l'accueil.</li>
+<li><strong>Le pourcentage d'une séance s'affiche correctement</strong> dans le journal : «&nbsp;100 %&nbsp;» et non plus «&nbsp;1%&nbsp;».</li>
+</ul>
+</article>
 <article id="2026-10-27">
   <header>
     <h1><time datetime="2026-10-27">27 octobre 2026</time></h1>

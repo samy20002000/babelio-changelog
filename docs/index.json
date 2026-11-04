@@ -1,6 +1,68 @@
 {
-  "updated": "2026-10-27",
+  "updated": "2026-11-04",
   "releases": [
+    {
+      "version": "0.206.0",
+      "build": 293,
+      "date": "2026-11-04",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Le tirage au sort fait tourner vos livres",
+              "text": "Vous hésitez entre plusieurs livres de votre pile ? Le tirage au sort fait maintenant tourner vos couvertures sur une roue en 3D, en plein écran : elle prend de la vitesse, ralentit longuement, puis s'arrête sur le livre choisi, seul au centre. Les couvertures sont chargées avant le départ, la roue ne tourne plus jamais à vide.",
+              "image": "assets/293/tirage.png",
+              "video": "assets/293/tirage.mp4"
+            },
+            {
+              "title": "Votre journal, séance par séance",
+              "text": "La liste « Jour par jour » de votre journal montre maintenant toutes les séances de chaque jour, du plus récent au plus ancien : le livre, les pages lues et l'endroit où vous en étiez, sans rien avoir à déplier. Les jours sans lecture n'y figurent plus.",
+              "image": "assets/293/journal.png"
+            },
+            {
+              "title": "Le bilan du mois se feuillette d'un geste",
+              "text": "Des repères en haut de l'écran indiquent combien de pages compte votre bilan et où vous en êtes. À l'ouverture, la couverture s'écarte un instant pour montrer la suite, et un simple toucher fait passer à la page suivante.",
+              "image": "assets/293/bilan.png"
+            },
+            {
+              "title": "Des dates de lecture pour tous vos livres",
+              "text": "Vous pouvez saisir une date de début et de fin de lecture pour n'importe quel livre, même s'il est encore « À lire » ou dans vos envies.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "section": "Corrections",
+          "items": [
+            {
+              "title": null,
+              "text": "Vos avancées en pourcentage comptent dans votre journal. Une avancée   notée en %, ou un livre terminé avec « J'ai fini ce livre », n'ajoutait   aucune page à votre journal, alors que l'historique du livre les comptait.   Les deux affichent maintenant le même nombre de pages.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "« J'ai fini ce livre » demande à quelle page la séance a commencé,   comme le reste de la fenêtre qui raisonne en pages atteintes. Laissez le   champ vide si vous ne savez plus.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Terminer un livre n'ajoute plus de ligne « +0 page » à son historique,   depuis la fenêtre de modification comme depuis l'accueil.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Le pourcentage d'une séance s'affiche correctement dans le journal :   « 100 % » et non plus « 1% ».",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "version": "0.206.0",
       "build": 292,

@@ -41,22 +41,22 @@
           "items": [
             {
               "title": null,
-              "text": "Vos avancées en pourcentage comptent dans votre journal. Une avancée   notée en %, ou un livre terminé avec « J'ai fini ce livre », n'ajoutait   aucune page à votre journal, alors que l'historique du livre les comptait.   Les deux affichent maintenant le même nombre de pages.",
+              "text": "Vos avancées en pourcentage comptent dans votre journal. Une avancée notée en %, ou un livre terminé avec « J'ai fini ce livre », n'ajoutait aucune page à votre journal, alors que l'historique du livre les comptait. Les deux affichent maintenant le même nombre de pages.",
               "image": null
             },
             {
               "title": null,
-              "text": "« J'ai fini ce livre » demande à quelle page la séance a commencé,   comme le reste de la fenêtre qui raisonne en pages atteintes. Laissez le   champ vide si vous ne savez plus.",
+              "text": "« J'ai fini ce livre » demande à quelle page la séance a commencé, comme le reste de la fenêtre qui raisonne en pages atteintes. Laissez le champ vide si vous ne savez plus.",
               "image": null
             },
             {
               "title": null,
-              "text": "Terminer un livre n'ajoute plus de ligne « +0 page » à son historique,   depuis la fenêtre de modification comme depuis l'accueil.",
+              "text": "Terminer un livre n'ajoute plus de ligne « +0 page » à son historique, depuis la fenêtre de modification comme depuis l'accueil.",
               "image": null
             },
             {
               "title": null,
-              "text": "Le pourcentage d'une séance s'affiche correctement dans le journal :   « 100 % » et non plus « 1% ».",
+              "text": "Le pourcentage d'une séance s'affiche correctement dans le journal : « 100 % » et non plus « 1% ».",
               "image": null
             }
           ]
@@ -102,22 +102,22 @@
           "items": [
             {
               "title": null,
-              "text": "Un livre passé à « Lu » reçoit sa date de fin, y compris depuis   « À lire ». Seuls les livres déjà marqués « En cours » en obtenaient une.",
+              "text": "Un livre passé à « Lu » reçoit sa date de fin, y compris depuis « À lire ». Seuls les livres déjà marqués « En cours » en obtenaient une.",
               "image": null
             },
             {
               "title": null,
-              "text": "Ouvrir une relecture n'efface plus la première lecture. Les dates du   premier passage disparaissaient de la fiche dès qu'une deuxième lecture   était ajoutée, et deux lectures terminées le même jour n'en affichaient   qu'une.",
+              "text": "Ouvrir une relecture n'efface plus la première lecture. Les dates du premier passage disparaissaient de la fiche dès qu'une deuxième lecture était ajoutée, et deux lectures terminées le même jour n'en affichaient qu'une.",
               "image": null
             },
             {
               "title": null,
-              "text": "Une relecture commence quand la précédente est finie. Le bouton « + »   reste grisé tant qu'une lecture est en cours, et vous dit pourquoi si vous   le touchez.",
+              "text": "Une relecture commence quand la précédente est finie. Le bouton « + » reste grisé tant qu'une lecture est en cours, et vous dit pourquoi si vous le touchez.",
               "image": null
             },
             {
               "title": null,
-              "text": "La croix de suppression n'apparaît que sur une relecture. Sur un livre   lu une seule fois, elle proposait d'effacer les dates du livre lui-même.",
+              "text": "La croix de suppression n'apparaît que sur une relecture. Sur un livre lu une seule fois, elle proposait d'effacer les dates du livre lui-même.",
               "image": null
             }
           ]
@@ -163,52 +163,52 @@
           "items": [
             {
               "title": null,
-              "text": "Un livre terminé garde les pages de sa dernière séance. Si vous étiez   page 200 sur 300 et que vous lisiez les cent dernières avant d'appuyer sur   « j'ai terminé », ces pages n'étaient comptées nulle part dans votre   journal.",
+              "text": "Un livre terminé garde les pages de sa dernière séance. Si vous étiez page 200 sur 300 et que vous lisiez les cent dernières avant d'appuyer sur « j'ai terminé », ces pages n'étaient comptées nulle part dans votre journal.",
               "image": null
             },
             {
               "title": null,
-              "text": "Plus de relecture apparue toute seule, ni de ligne à « 0 % » le jour où   vous ouvriez une lecture — elle devenait la plus récente et les cartes   d'accueil vous annonçaient 0 % sur un livre lu à moitié.",
+              "text": "Plus de relecture apparue toute seule, ni de ligne à « 0 % » le jour où vous ouvriez une lecture — elle devenait la plus récente et les cartes d'accueil vous annonçaient 0 % sur un livre lu à moitié.",
               "image": null
             },
             {
               "title": null,
-              "text": "Les deux dates de lecture s'éditent à la fin d'un livre, et plus   seulement celle de fin.",
+              "text": "Les deux dates de lecture s'éditent à la fin d'un livre, et plus seulement celle de fin.",
               "image": null
             },
             {
               "title": null,
-              "text": "Le chronomètre fonctionne depuis une fiche de livre. Une séance lancée   de là répondait « Erreur. » à chaque enregistrement.",
+              "text": "Le chronomètre fonctionne depuis une fiche de livre. Une séance lancée de là répondait « Erreur. » à chaque enregistrement.",
               "image": null
             },
             {
               "title": null,
-              "text": "Plus d'épingle apparue d'office en passant un livre à « À lire » ou   « Lu », et détacher un livre ne le retire plus de « Possédés »,   « Empruntés » ou « À échanger ». Scanner un livre déjà dans votre   bibliothèque ne vide plus ses étagères non plus.",
+              "text": "Plus d'épingle apparue d'office en passant un livre à « À lire » ou « Lu », et détacher un livre ne le retire plus de « Possédés », « Empruntés » ou « À échanger ». Scanner un livre déjà dans votre bibliothèque ne vide plus ses étagères non plus.",
               "image": null
             },
             {
               "title": null,
-              "text": "L'épingle est visible en mode sombre et en mode Cozy ; elle y était   noire sur fond sombre.",
+              "text": "L'épingle est visible en mode sombre et en mode Cozy ; elle y était noire sur fond sombre.",
               "image": null
             },
             {
               "title": null,
-              "text": "Plus de bandes blanches en haut et en bas de l'écran en mode sombre,   Cozy et Papier Crème.",
+              "text": "Plus de bandes blanches en haut et en bas de l'écran en mode sombre, Cozy et Papier Crème.",
               "image": null
             },
             {
               "title": null,
-              "text": "Les messages de confirmation sont lisibles dans les quatre modes : en   Papier Crème le texte avait la couleur exacte de son fond.",
+              "text": "Les messages de confirmation sont lisibles dans les quatre modes : en Papier Crème le texte avait la couleur exacte de son fond.",
               "image": null
             },
             {
               "title": null,
-              "text": "La recherche de livres fonctionne de nouveau. Son index était tombé et   répondait zéro résultat à n'importe quel titre.",
+              "text": "La recherche de livres fonctionne de nouveau. Son index était tombé et répondait zéro résultat à n'importe quel titre.",
               "image": null
             },
             {
               "title": null,
-              "text": "Les dates restent en français. Traverser certains écrans suffisait à   faire basculer « Lu du 18 août » en « 18 August » pour le reste de la   session.",
+              "text": "Les dates restent en français. Traverser certains écrans suffisait à faire basculer « Lu du 18 août » en « 18 August » pour le reste de la session.",
               "image": null
             }
           ]
@@ -249,22 +249,22 @@
           "items": [
             {
               "title": null,
-              "text": "Les dates de lecture s'inscrivent de nouveau seules. Passer un livre   à « Lu » ou « En cours » pose la date correspondante, quel que soit   l'endroit d'où vous le faites : la fiche du livre, le scanner, le   chronomètre, une sélection multiple. Le réglage se trouve dans   Réglages › Date et statut de lecture automatique.",
+              "text": "Les dates de lecture s'inscrivent de nouveau seules. Passer un livre à « Lu » ou « En cours » pose la date correspondante, quel que soit l'endroit d'où vous le faites : la fiche du livre, le scanner, le chronomètre, une sélection multiple. Le réglage se trouve dans Réglages › Date et statut de lecture automatique.",
               "image": null
             },
             {
               "title": null,
-              "text": "Une session mal saisie se supprime. La croix était présente mais   presque invisible ; elle se voit désormais dans l'historique du livre et   dans le journal.",
+              "text": "Une session mal saisie se supprime. La croix était présente mais presque invisible ; elle se voit désormais dans l'historique du livre et dans le journal.",
               "image": null
             },
             {
               "title": null,
-              "text": "La série de lecture s'ouvre au toucher sur toute la carte, même   lorsqu'aucune série n'est en cours.",
+              "text": "La série de lecture s'ouvre au toucher sur toute la carte, même lorsqu'aucune série n'est en cours.",
               "image": null
             },
             {
               "title": null,
-              "text": "L'écran des statistiques d'une année s'affiche en une seconde et demie   au lieu de huit.",
+              "text": "L'écran des statistiques d'une année s'affiche en une seconde et demie au lieu de huit.",
               "image": null
             }
           ]
@@ -285,17 +285,17 @@
           "items": [
             {
               "title": null,
-              "text": "Le temps de lecture s'affiche sous la jauge de la fiche livre, y compris   sur un livre déjà terminé.",
+              "text": "Le temps de lecture s'affiche sous la jauge de la fiche livre, y compris sur un livre déjà terminé.",
               "image": null
             },
             {
               "title": null,
-              "text": "La croix supprime une date de lecture, et le retour Android ne l'efface   plus tout seul.",
+              "text": "La croix supprime une date de lecture, et le retour Android ne l'efface plus tout seul.",
               "image": null
             },
             {
               "title": null,
-              "text": "Le clavier ne masque plus les champs dans « Noter mon avancée » — ni dans   les défis, le signalement d'un problème ou la création d'une liste.",
+              "text": "Le clavier ne masque plus les champs dans « Noter mon avancée » — ni dans les défis, le signalement d'un problème ou la création d'une liste.",
               "image": null
             },
             {
@@ -331,12 +331,12 @@
             },
             {
               "title": null,
-              "text": "Écran « à partir de quel âge » : plus besoin de bouger la liste entre deux   réponses.",
+              "text": "Écran « à partir de quel âge » : plus besoin de bouger la liste entre deux réponses.",
               "image": null
             },
             {
               "title": null,
-              "text": "Un nombre de pages manquant se complète directement, sans passer par la   modération.",
+              "text": "Un nombre de pages manquant se complète directement, sans passer par la modération.",
               "image": null
             },
             {

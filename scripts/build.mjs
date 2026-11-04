@@ -160,7 +160,7 @@ const toBlocks = (md) => {
     }
     if (!line.trim()) continue;
     const last = current.items[current.items.length - 1];
-    if (last) last.text = `${last.text} ${strip(line)}`.trim();
+    if (last) last.text = `${last.text} ${strip(line.trim())}`.trim();
   }
   return blocks;
 };

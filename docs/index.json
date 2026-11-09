@@ -14,64 +14,23 @@
           "section": "Nouveautés",
           "items": [
             {
+              "title": "Ajoutez un livre absent de Babelio",
+              "text": "Un livre introuvable, même après la recherche chez Amazon ? Créez sa fiche sans quitter l'appli, depuis « Ajouter un livre absent de Babelio » dans la recherche, ou quand un code-barres scanné ne donne rien. Commencez par son ISBN, tapé ou scanné : s'il existe déjà, sur Babelio ou ailleurs, l'appli vous le montre pour l'ajouter directement. Sinon, son titre et son auteur servent à une dernière vérification, puis vous décrivez le livre : couverture en photo, auteurs et traducteurs, éditeur, date de parution, nombre de pages, format et résumé. Le livre rejoint aussitôt vos étagères.",
+              "image": "assets/296/ajout-isbn.png"
+            },
+            {
               "title": "L'historique d'un livre se lit comme votre journal",
               "text": "L'historique de lecture d'un livre regroupe maintenant vos séances jour par jour : pour chacune, les pages lues, la page de départ et la page atteinte, le temps de lecture et, le cas échéant, « Livre terminé ». Le même format que le journal, d'un écran à l'autre.",
+              "image": "assets/296/historique.png"
+            },
+            {
+              "title": "Finir un livre, de la page où vous en étiez",
+              "text": "« J'ai fini ce livre » affiche maintenant « Lu aujourd'hui de la page 210 à 320 » : la page de votre dernière avancée et le nombre de pages du livre, que vous pouvez corriger l'un et l'autre avant de valider.",
               "image": null
             },
             {
               "title": "Votre défi annuel, au rythme des jours",
               "text": "« Plus que 13 livres (ou 13 par mois) » restait le même du 1er au 30 du mois. Le défi indique désormais le rythme à tenir jusqu'au 31 décembre : « 1 livre tous les 4 jours », puis « 2 par jour » si la fin d'année se resserre. Le chiffre se met à jour chaque jour.",
-              "image": null
-            }
-          ]
-        },
-        {
-          "section": "Corrections",
-          "items": [
-            {
-              "title": null,
-              "text": "Une relecture s'affiche sur la fiche du livre. La fiche montrait la première lecture et son avancement, même pendant une relecture. Elle affiche maintenant la lecture en cours et ses seules séances.",
-              "image": null
-            },
-            {
-              "title": null,
-              "text": "Une première avancée en pourcentage compte ses pages. Notée depuis l'accueil, le journal ou le chronomètre, elle n'apparaissait dans le journal qu'avec « p. 0 → 122 » et aucune page lue. Elle est maintenant enregistrée en pages.",
-              "image": null
-            },
-            {
-              "title": null,
-              "text": "Une nouvelle lecture repart de la page 0 dans le journal et l'historique, au lieu d'afficher « p. 320 → 34 ».",
-              "image": null
-            },
-            {
-              "title": null,
-              "text": "« J'ai lu aujourd'hui » tient sur une ligne sur l'accueil, même avec un thème à police serif.",
-              "image": null
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "version": "0.206.0",
-      "build": 295,
-      "date": "2026-11-09",
-      "platforms": [
-        "android",
-        "ios"
-      ],
-      "sections": [
-        {
-          "section": "Nouveautés",
-          "items": [
-            {
-              "title": "Ajoutez un livre absent de Babelio",
-              "text": "Un livre introuvable, même après la recherche chez Amazon ? Créez sa fiche sans quitter l'appli. Commencez par son ISBN, tapé ou scanné : s'il existe déjà, sur Babelio ou ailleurs, l'appli vous le montre pour l'ajouter directement. Sinon, son titre et son auteur servent à une dernière vérification, puis vous décrivez le livre : couverture en photo, auteurs et traducteurs, éditeur, date de parution, nombre de pages, format et résumé. Le livre rejoint aussitôt vos étagères.",
-              "image": null
-            },
-            {
-              "title": "Finir un livre, de la page où vous en étiez",
-              "text": "« J'ai fini ce livre » affiche maintenant « Lu aujourd'hui de la page 210 à 320 » : la page de votre dernière avancée et le nombre de pages du livre, que vous pouvez corriger l'un et l'autre avant de valider.",
               "image": null
             }
           ]
@@ -91,7 +50,17 @@
             },
             {
               "title": null,
-              "text": "Les dates de lecture s'affichent en clair, « 7 oct. 2024 » au lieu de « 2024-10-07 ».",
+              "text": "Une relecture s'affiche sur la fiche du livre. La fiche montrait la première lecture et son avancement, même pendant une relecture. Elle affiche maintenant la lecture en cours et ses seules séances.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Une première avancée en pourcentage compte ses pages. Notée depuis l'accueil, le journal ou le chronomètre, elle n'apparaissait dans le journal qu'avec « p. 0 → 122 » et aucune page lue. Elle est maintenant enregistrée en pages.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Une nouvelle lecture repart de la page 0 dans le journal et l'historique, au lieu d'afficher « p. 320 → 34 ».",
               "image": null
             },
             {
@@ -101,7 +70,17 @@
             },
             {
               "title": null,
+              "text": "Les dates de lecture s'affichent en clair, « 7 oct. 2024 » au lieu de « 2024-10-07 ».",
+              "image": null
+            },
+            {
+              "title": null,
               "text": "Le nombre de pages lues du bilan mensuel est lisible, en blanc sur le fond sombre.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "« J'ai lu aujourd'hui » tient sur une ligne sur l'accueil, même avec un thème à police serif.",
               "image": null
             },
             {

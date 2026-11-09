@@ -3,6 +3,57 @@
   "releases": [
     {
       "version": "0.206.0",
+      "build": 296,
+      "date": "2026-11-09",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "L'historique d'un livre se lit comme votre journal",
+              "text": "L'historique de lecture d'un livre regroupe maintenant vos séances jour par jour : pour chacune, les pages lues, la page de départ et la page atteinte, le temps de lecture et, le cas échéant, « Livre terminé ». Le même format que le journal, d'un écran à l'autre.",
+              "image": null
+            },
+            {
+              "title": "Votre défi annuel, au rythme des jours",
+              "text": "« Plus que 13 livres (ou 13 par mois) » restait le même du 1er au 30 du mois. Le défi indique désormais le rythme à tenir jusqu'au 31 décembre : « 1 livre tous les 4 jours », puis « 2 par jour » si la fin d'année se resserre. Le chiffre se met à jour chaque jour.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "section": "Corrections",
+          "items": [
+            {
+              "title": null,
+              "text": "Une relecture s'affiche sur la fiche du livre. La fiche montrait la première lecture et son avancement, même pendant une relecture. Elle affiche maintenant la lecture en cours et ses seules séances.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Une première avancée en pourcentage compte ses pages. Notée depuis l'accueil, le journal ou le chronomètre, elle n'apparaissait dans le journal qu'avec « p. 0 → 122 » et aucune page lue. Elle est maintenant enregistrée en pages.",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "Une nouvelle lecture repart de la page 0 dans le journal et l'historique, au lieu d'afficher « p. 320 → 34 ».",
+              "image": null
+            },
+            {
+              "title": null,
+              "text": "« J'ai lu aujourd'hui » tient sur une ligne sur l'accueil, même avec un thème à police serif.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "version": "0.206.0",
       "build": 295,
       "date": "2026-11-09",
       "platforms": [

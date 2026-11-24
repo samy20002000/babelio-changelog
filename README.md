@@ -33,6 +33,10 @@ Ce qu'elle change pour le lecteur, en deux ou trois phrases.
 - Ce qui ne marchait pas, et qui marche.
 ```
 
+`ios_version` (facultatif) donne le numéro de la version iOS, qui ne suit
+pas celui d'Android (`ios_version: "145.11"`) : la page affiche alors
+« Android 0.207.0 · iOS 145.11 ».
+
 Écrivez du côté du lecteur : ce qu'il gagne, pas le nom du composant. Une
 capture par nouveauté marquante, deux ou trois par version au maximum —
 au-delà, personne ne les produira.

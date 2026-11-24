@@ -204,6 +204,13 @@ const main = async () => {
       day: "numeric", month: "long", year: "numeric",
     });
 
+  // iOS numbers its versions apart since June: when the entry gives the iOS
+  // number, both are spelled out, or the iPhone reader looks for 0.207.0.
+  const meta = (r) =>
+    r.ios_version
+      ? `Android ${escape(r.version)} · iOS ${escape(r.ios_version)}`
+      : `Version ${escape(r.version)} · ${r.platforms.join(" et ")}`;
+
   const articles = releases
     .map(
       // The date leads, not the version: several updates ship under the same
@@ -212,7 +219,7 @@ const main = async () => {
       (r) => `<article id="${r.date}">
   <header>
     <h1><time datetime="${r.date}">${dateFr(r.date)}</time></h1>
-    <p class="meta">Version ${escape(r.version)} · ${r.platforms.join(" et ")}</p>
+    <p class="meta">${meta(r)}</p>
   </header>
   ${render(r.body)}
 </article>`,

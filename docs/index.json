@@ -1,6 +1,38 @@
 {
-  "updated": "2026-11-11",
+  "updated": "2026-11-24",
   "releases": [
+    {
+      "version": "0.207.0",
+      "ios_version": "145.11",
+      "build": 303,
+      "date": "2026-11-23",
+      "platforms": [
+        "android",
+        "ios"
+      ],
+      "sections": [
+        {
+          "section": "Nouveautés",
+          "items": [
+            {
+              "title": "Des livres et des actualités mis en avant par les éditeurs",
+              "text": "Des éditeurs peuvent désormais présenter un livre ou une actualité dans l'appli : sur l'accueil, dans Découvrir, dans le fil d'actualités et sur les fiches livre. Ces contenus sont toujours signalés comme sponsorisés, et un appui ouvre directement la fiche du livre présenté.",
+              "image": null
+            }
+          ]
+        },
+        {
+          "section": "Corrections",
+          "items": [
+            {
+              "title": null,
+              "text": "Le mois s'affiche dans la bonne couleur sur la couverture de votre bilan de lecture.",
+              "image": null
+            }
+          ]
+        }
+      ]
+    },
     {
       "version": "0.207.0",
       "build": 299,
